@@ -64,7 +64,7 @@ int main()
 			Sleep(500);
 		}
 		getchar();
-		// 设置播放位置
+		//设置播放位置
 		libvlc_media_player_set_position(player, 0.15);
 		printf("%f%%\r", 100.0 * libvlc_media_player_get_position(player));
 		getchar();
